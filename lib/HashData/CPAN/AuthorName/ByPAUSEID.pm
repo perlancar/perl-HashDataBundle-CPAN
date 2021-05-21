@@ -7,7 +7,7 @@ package HashData::CPAN::AuthorName::ByPAUSEID;
 
 use Role::Tiny::With;
 with 'HashDataRole::Source::LinesInDATA';
-with 'Role::TinyCommons::Collection::FindItem::Iterator';         # add find_item() (has_item already added above)
+#with 'Role::TinyCommons::Collection::FindItem::Iterator';         # add find_item() (has_item already added above)
 #with 'Role::TinyCommons::Collection::PickItems::RandomSeekLines'; # add pick_items() that uses binary search
 
 # STATS
